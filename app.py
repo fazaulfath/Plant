@@ -24,5 +24,5 @@ def predict():
             return render_template('index.html', status=500, res="Internal Server Error")
     return render_template('index.html', status=400, res="Bad Request")
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
